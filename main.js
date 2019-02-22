@@ -2,6 +2,7 @@ const app = new Vue({
   el: '#app',
   data: {
     product: 'Socks',
-    description: 'This is the description of the product'
+    image: './assets/vmSocks-green-onWhite.jpg',
+    url: 'https://www.google.com'
   }
 });
